@@ -70,6 +70,11 @@ const App = () => {
               addUser={addUser}
             />
           </div>
+          <div>
+            <h2>Count</h2>
+            <p>Add Count: {addCount}</p>
+            <p>Update Count: {updateCount}</p>
+          </div>
         </div>
         <div className="flex-large">
           <h2>View Users</h2>
@@ -79,11 +84,6 @@ const App = () => {
             editRow={editRow}
           />
         </div>
-      </div>
-      <div>
-        <h2>Count</h2>
-        <p>Add Count: {addCount}</p>
-        <p>Update Count: {updateCount}</p>
       </div>
     </div>
   );
