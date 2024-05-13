@@ -45,14 +45,14 @@ const EditUserForm = ({ editing, currentUser, setEditing, setCurrentUser, update
             <input
                 type="text"
                 name="name"
-                value={user.name}
+                value={user?.name}
                 onChange={handleInputChange}
             />
             <label>Username</label>
             <input
                 type="text"
                 name="username"
-                value={user.username}
+                value={user?.username}
                 onChange={handleInputChange}
             />
             <button>{editing ? "Update" : "Add"}</button>
